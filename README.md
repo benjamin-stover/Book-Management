@@ -1,17 +1,10 @@
-##########################################################
-              Book Inventory Management
-##########################################################
+## CONTACT INFORMATION
+Author: Benjamin Stover  
+Phone Number: 865-660-9948  
+Email: benjaminstover2023@gmail.com  
 
-----------------------------------------------------------
-***************** CONTACT INFORMATION ********************
-----------------------------------------------------------
-Author: Benjamin Stover
-Phone Number: 865-660-9948
-Email: benjaminstover2023@gmail.com
 
-----------------------------------------------------------
-**************** INSTRUCTIONS FOR USE ********************
-----------------------------------------------------------
+## INSTRUCTIONS FOR USE
 This program is meant to be used on a local machine.
 The program consists of different tabs that each perform a 
 seperate function. Listed below are the names of the tabs, a description
@@ -63,42 +56,39 @@ of what they do, and instructions for their use.
 - Displays the history of the changes made to the inventory. 
 - This tab is read only. 
 
-----------------------------------------------------------
-              *** DOWNLOAD AND SET UP INSTRUCTIONS ***
-----------------------------------------------------------
-This program was made on Linux and was written in C++ using Qt.
 
+## DOWNLOAD AND SET UP INSTRUCTIONS
+This program was made on Linux and was written in C++ using Qt.  
 - Download Qt
 - Download PostgreSQL
 - Create or enter the PostgreSQL database you would like the data
   from this program to be contained in. 
-- In psql enter the commands given in the "book_tables.sql" file to create 
+- In psql enter the commands given in **book_tables.sql** to create 
   the "inventory" table and "history" table.
-- Go into the connect.cpp file and fill in the information between the
+- In **connect.cpp** fill in the information between the
   quotation marks for the following lines of code:
   
-   > db.setHostName("");        // Host Name
-   > db.setDatabaseName("");    // Database Name
-   > db.setUserName("");        // PSQL Username
-   > db.setPassword("");        // PSQL User Password
+   > db.setHostName("localhost");        // Host Name  
+   > db.setDatabaseName("");             // Database Name  
+   > db.setUserName("");                 // PSQL Username  
+   > db.setPassword("");                 // PSQL User Password  
 
 - The project should now compile and be ready for use.
 
-----------------------------------------------------------
-                   *** BACKGROUND ***
-----------------------------------------------------------
+
+## BACKGROUND
 I originally started creating this program beacause I was studying
 modular arithmetic. One of my professors in college while teaching
 modular arithmetic brought up the ISBN as an example of a real world 
 application. In the case of the ISBN, modular arithmetic is used
 to check if the number entered is valid and to create new ISBNs. 
 Here is a link to the ISBN wikipedia article for more information: 
-https://en.wikipedia.org/wiki/ISBN 
+https://en.wikipedia.org/wiki/ISBN  
 The "Check Digits" section of the article explains how these calculations are
 performed. 
 
 After writing a simple program to check the validity of any ISBN (10-digit or 13-digit) 
 I wanted to find an application for the program I had just written, so I decided
-to create a book inventory management system.  
+to create a book inventory management system. Thus, **Book Management** was born. :)
 
 
