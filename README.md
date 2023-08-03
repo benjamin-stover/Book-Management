@@ -58,13 +58,14 @@ of what they do, and instructions for their use.
 
 
 ## DOWNLOAD AND SET UP INSTRUCTIONS
-This program was made on Linux and was written in C++ using Qt.  
+This program was written in C++ using Qt on Linux.
 - Download Qt
 - Download PostgreSQL
 - Create or enter the PostgreSQL database you would like the data
   from this program to be contained in. 
 - In psql enter the commands given in **book_tables.sql** to create 
   the "inventory" table and "history" table.
+- Open this project in the Qt Creator IDE.
 - In **connect.cpp** fill in the information between the
   quotation marks for the following lines of code:
   
@@ -73,8 +74,7 @@ This program was made on Linux and was written in C++ using Qt.
    > db.setUserName("");                 // PSQL Username  
    > db.setPassword("");                 // PSQL User Password  
 
-- The project should now compile and be ready for use.
-
+- The program should now be ready to compile and run.
 
 ## BACKGROUND
 I originally started creating this program beacause I was studying
