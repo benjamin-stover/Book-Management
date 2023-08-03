@@ -61,7 +61,7 @@ of what they do, and instructions for their use.
 This program was wrtten in C++ in the Qt Creator IDE on a Linux machine.  
 - Download Qt
 - Download PostgreSQL
-- Create or enter the PostgreSQL database you would like the data
+- Create or open the PostgreSQL database you would like the data
   from this program to be contained in. 
 - In psql enter the commands given in **book_tables.sql** to create 
   the "inventory" table and "history" table.
