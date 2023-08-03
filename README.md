@@ -58,7 +58,7 @@ of what they do, and instructions for their use.
 
 
 ## DOWNLOAD AND SET UP INSTRUCTIONS
-This program was written in C++ using Qt on Linux.
+This program was wrtten in C++ in the Qt Creator IDE on a Linux machine.  
 - Download Qt
 - Download PostgreSQL
 - Create or enter the PostgreSQL database you would like the data
