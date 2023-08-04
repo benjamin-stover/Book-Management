@@ -5,8 +5,7 @@ Email: benjaminstover2023@gmail.com
 
 
 ## INSTRUCTIONS FOR USE
-This program is meant to be used on a local machine.
-The program consists of different tabs that each perform a 
+This program consists of different tabs that each perform a 
 seperate function. Listed below are the names of the tabs, a description
 of what they do, and instructions for their use. 
 
@@ -58,7 +57,8 @@ of what they do, and instructions for their use.
 
 
 ## DOWNLOAD AND SET UP INSTRUCTIONS
-This program was wrtten in C++ in the Qt Creator IDE on a Linux machine.  
+This program was wrtten in C++ in the Qt Creator IDE on a Linux machine.
+It is meant to be used on a local machine.  
 - Download Qt
 - Download PostgreSQL
 - Create or open the PostgreSQL database you would like the data
