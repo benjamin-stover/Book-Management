@@ -1,9 +1,11 @@
-## VIDEO DEMO
-Demo Link: https://www.youtube.com/watch?v=Q7igvx6iGLo
 ## CONTACT INFORMATION
 Author: Benjamin Stover  
 Phone Number: 865-660-9948  
 Email: benjaminstover2023@gmail.com  
+
+
+## VIDEO DEMO
+Demo Link: https://www.youtube.com/watch?v=Q7igvx6iGLo  
 
 
 ## INSTRUCTIONS FOR USE
