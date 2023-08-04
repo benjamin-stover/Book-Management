@@ -57,8 +57,8 @@ of what they do, and instructions for their use.
 
 
 ## DOWNLOAD AND SET UP INSTRUCTIONS
-This program was wrtten in C++ in the Qt Creator IDE on a Linux machine.
-It is meant to be used on a local machine.  
+This program was wrtten in C++ in the Qt Creator IDE on a Linux machine.  
+It is meant to be used on a local (Linux) machine.  
 - Download Qt
 - Download PostgreSQL
 - Create or open the PostgreSQL database you would like the data
