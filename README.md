@@ -70,14 +70,6 @@ It is meant to be used on a local (Linux) machine.
 - In psql enter the commands given in **book_tables.sql** to create 
   the "inventory" table and "history" table.
 - Open this project in the Qt Creator IDE.
-- In **connect.cpp** fill in the information between the
-  quotation marks for the following lines of code:
-  
-   > db.setHostName("localhost");        // Host Name  
-   > db.setDatabaseName("");             // Database Name  
-   > db.setUserName("");                 // PSQL Username  
-   > db.setPassword("");                 // PSQL User Password  
-
 - The program should now be ready to compile and run.
 
 ## BACKGROUND
